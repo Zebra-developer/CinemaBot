@@ -16,8 +16,10 @@
    cd cinema_bot
 
 2.Создайте и активируйте виртуальное окружение:
+
 	```bash
-	python -m venv .venv
+	
+ 	python -m venv .venv
 	source .venv/bin/activate   # Linux / MacOS
 	.venv\Scripts\activate      # Windows PowerShell
 
@@ -35,4 +37,5 @@
 6. Запустите бота:
    ```bash
    python main.py
+
 
