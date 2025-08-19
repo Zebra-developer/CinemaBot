@@ -16,22 +16,23 @@
    cd cinema_bot
 
 2.Создайте и активируйте виртуальное окружение:
-	```python -m venv .venv
+	```bash
+	python -m venv .venv
 	source .venv/bin/activate   # Linux / MacOS
 	.venv\Scripts\activate      # Windows PowerShell
 
 
 3. Установите зависимости:
-
-	```pip install -r requirements.txt
+	```bash
+ 	pip install -r requirements.txt
 
 
 4. Создайте файл .env и добавьте туда свой токен Telegram API:
-
-	```BOT_TOKEN=ваш_токен
-
-
-5. Запустите бота:
+  	 ```bash
+    BOT_TOKEN=ваш_токен
 
 
-	```python main.py
+6. Запустите бота:
+   ```bash
+   python main.py
+
